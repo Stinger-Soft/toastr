@@ -2,13 +2,10 @@
     "name": "stinger-soft/toastr",
     "description": "Shim repository for https://github.com/CodeSeven/toastr",
     "license": "MIT",
-    "type": "component",
     "require": {},
+    "type": "component",
     "extra": {
         "component": {
-            "shim": {
-                "deps": ["jquery"]
-            },
             "scripts": [
                 "toastr.js"
             ],
@@ -17,6 +14,7 @@
             ],
             "files": [
                 "build/toastr.min.js",
+                "build/toastr.min.css",
                 "build/toastr.js.map",
                 "toastr.less",
                 "toastr.scss"
