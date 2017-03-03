@@ -6,8 +6,11 @@
     "require": {},
     "extra": {
         "component": {
+            "shim": {
+                "deps": ["jquery"]
+            },
             "scripts": [
-                "toastr.js",
+                "toastr.js"
             ],
             "styles": [
                 "toastr.css"
