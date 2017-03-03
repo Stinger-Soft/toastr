@@ -2,5 +2,22 @@
     "name": "grimmlink/toastr",
     "description": "Shim repository for https://github.com/CodeSeven/toastr",
     "license": "MIT",
-    "require": {}
+    "type": "component",
+    "require": {},
+    "extra": {
+        "component": {
+            "scripts": [
+                "toastr.js",
+            ],
+            "styles": [
+                "toastr.css"
+            ],
+            "files": [
+                "build/toastr.min.js",
+                "build/toastr.js.map",
+                "toastr.less",
+                "toastr.scss"
+            ]
+        }
+    }
 }
